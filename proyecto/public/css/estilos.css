@@ -1,0 +1,169 @@
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+header{
+  width:100%;
+  height:11vh;
+  background-color: rgba(0, 0, 0,255);
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 10px 0px #888888;
+}
+
+.main_title{
+  font-size: 70px;
+}
+
+.main_subtitle{
+  font-size: 40px;
+}
+
+.subtitles{
+  font-family: arial;
+  font-size: 50px;
+  color: #8c8c8c;
+}
+
+.main_paragraph{
+  color: #8c8c8c;
+  font-size: 23px;
+}
+
+
+/*nav*/
+.headerlogo{
+  height:130%;
+  width:28%;
+  padding-bottom:15px;
+}
+
+.header_main{
+  width:50%;
+  height:100%;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_link{
+  display:block;
+  width:20%;
+  height: auto;
+  text-decoration:none;
+  color: #8c8c8c;
+  font-size:20px;
+  text-align:center;
+  font-family: arial;
+}
+/*banner*/
+
+
+#banner{
+  display: flex;
+  flex-direction: column;
+font-family: arial;
+  width:100%;
+  height:89vh;
+  justify-content: center;
+  align-items:left;
+  padding-left: 5%;
+  color:white;
+  background-image: url("https://images.pexels.com/photos/1205062/pexels-photo-1205062.jpeg?cs=srgb&dl=pexels-brett-sayles-1205062.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*quienes somos*/
+#about_us{
+display:grid;
+flex-direction: row;
+font-family: arial;
+width: 100%;
+height:60vh;
+justify-content:center;
+background-color: rgb(81,89,101);
+padding: 5%;
+}
+
+#about_us h3{
+  text-align:left;
+  color: black;
+}
+
+#about_us p{
+  text-align:left;
+  color: black;
+}
+
+/*galería*/
+#gallery{
+display: flex;
+flex-direction: row;
+width:100%;
+height:80vh;
+justify-content:space-around;
+background-color:rgba(0, 0, 0,255);
+padding: 5%;
+flex-wrap: wrap;
+}
+
+#gallery h3{
+  text-align:left;
+  width:100%;
+
+}
+
+.products{
+  width:30%;
+  height:20vh;
+}
+
+.guitarras{
+width: 100%;
+height: 30vh;
+}
+
+/*contacto*/
+#contact{
+  display:grid;
+  flex-direction: row;
+  font-family: arial;
+  width: 100%;
+  height:70vh;
+  justify-content:center;
+  background-color: rgb(255,255,255);
+  padding: 5%;
+}
+
+#contact h3{
+  color: black;
+}
+
+@media(max-width:700px) {
+
+.headerlogo{
+width:40%;
+}
+.about_us{
+  text-align: center;
+  padding-bottom: 5px;
+}
+.gallery{
+  height: 80vh;
+}
+
+.products{
+ width: 100%;
+ height:45vh;
+  }
+
+  .guitarras{
+  width: 100%;
+  }
+
+}
