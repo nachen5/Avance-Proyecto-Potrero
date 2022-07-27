@@ -11,7 +11,6 @@ header{
   background-color: rgba(0, 0, 0,255);
   display: flex;
   justify-content: space-around;
-  box-shadow: 0px 10px 0px #888888;
 }
 
 .main_title{
@@ -25,20 +24,20 @@ header{
 .subtitles{
   font-family: arial;
   font-size: 50px;
-  color: #8c8c8c;
+  color: rgba(29,29,31,255);
 }
 
 .main_paragraph{
-  color: #8c8c8c;
+  color: rgba(29,29,31,255);
   font-size: 23px;
 }
 
 
 /*nav*/
 .headerlogo{
-  height:130%;
-  width:28%;
-  padding-bottom:15px;
+  height:150%;
+  width:30%;
+  padding-bottom:30px;
 }
 
 .header_main{
@@ -59,9 +58,8 @@ header{
   text-align:center;
   font-family: arial;
 }
+
 /*banner*/
-
-
 #banner{
   display: flex;
   flex-direction: column;
@@ -78,92 +76,106 @@ font-family: arial;
   position: relative;
 }
 
+
 /*quienes somos*/
 #about_us{
-display:grid;
-flex-direction: row;
+display:column;
 font-family: arial;
 width: 100%;
-height:60vh;
-justify-content:center;
-background-color: rgb(81,89,101);
-padding: 5%;
+height:90vh;
+justify-content:justify;
+background-color: rgba(251,246,252,255);
+padding: 15%;
 }
 
 #about_us h3{
-  text-align:left;
-  color: black;
+  text-align:center;
+  color: rgba(29,29,31,255);
 }
 
 #about_us p{
   text-align:left;
-  color: black;
+  color: rgba(29,29,31,255);
+  padding-top:15px;
+  justify-content: justify;
 }
 
 /*galería*/
 #gallery{
 display: flex;
-flex-direction: row;
 width:100%;
-height:80vh;
-justify-content:space-around;
+height:100vh;
 background-color:rgba(0, 0, 0,255);
 padding: 5%;
 flex-wrap: wrap;
+color:white;
+justify-content: center;
 }
 
 #gallery h3{
-  text-align:left;
-  width:100%;
-
+width:100%;
+text-align:center;
+color:rgba(251,251,253,255);
 }
 
-.products{
-  width:30%;
-  height:20vh;
-}
-
-.guitarras{
-width: 100%;
-height: 30vh;
-}
 
 /*contacto*/
 #contact{
-  display:grid;
+  display:flex;
   flex-direction: row;
   font-family: arial;
   width: 100%;
   height:70vh;
   justify-content:center;
-  background-color: rgb(255,255,255);
-  padding: 5%;
+  background-color: 	rgb(220,220,220);
+  flex-wrap: wrap;
 }
+
+.contact_item{
+width:30%;
+height:20vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contact_item p{
+  font-size:6vh;
+  text-decoration: none;
+
+}
+
+.contact_item i{
+font-size: 10vh;
+}
+
 
 #contact h3{
-  color: black;
+  width:100%;
+  color: rgba(29,29,31,255);
+  text-align: center;
+  margin-top: 10vh;
+
+  /*footer*/
+}
+.mainFooter{
+  background-color:rgba(13,17,23,255);
+  height:10vh;
+  text-align:center;
+  color:white;
+  padding:3vh;
 }
 
-@media(max-width:700px) {
-
+@media (max-width:700px){
 .headerlogo{
 width:40%;
 }
-.about_us{
+#about_us{
   text-align: center;
-  padding-bottom: 5px;
+  padding:5%;
 }
-.gallery{
-  height: 80vh;
+.contact_item{
+  width:100%
 }
-
-.products{
- width: 100%;
- height:45vh;
-  }
-
-  .guitarras{
-  width: 100%;
-  }
-
 }
