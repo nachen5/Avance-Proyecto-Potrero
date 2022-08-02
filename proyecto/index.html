@@ -1,85 +1,124 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+ <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="public/css/estilos.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    </head>
-  <body>
-    <header>
-      <figure class="headerlogo">
-        <img class="headerlogo" src="img/loguito.png" alt="logo">
-      </figure>
+   <meta charset="utf-8">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+   <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="public/css/estilos.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+  </head>
+ <body>
+  <header>
+   <figure class="headerlogo">
+    <img class="headerlogo" src="public/img/loguito.png" alt="logo">
+     </figure>
       <nav class="header_main">
-      <a class="nav_link" href="#about_us">¿Quienes Somos?</a>
-      <a class="nav_link" href="#contact">Contacto</a>
-      </nav>
-    </header>
-<main>
-<section id=banner>
-  <h1 class="main_title">Dale vida a tu instrumento</h1>
-  <h2 class="main_subtitle">Lorem ipsum</h2>
-</section>
-<section id="about_us">
-  <h3 class="subtitles">
+       <a class="nav_link" href="#about_us">¿Quienes Somos?</a>
+       <a class="nav_link" href="#services">Nuestros Servicios</a>
+       <a class="nav_link" href="#contact">Contacto</a>
+        </nav>
+  </header>
+  <main>
+   <section id=banner>
+    <h1 class="main_title">Dale vida a tu instrumento</h1>
+    <h2 class="main_subtitle">Lorem ipsum</h2>
+   </section>
+   <section id="about_us">
+    <h3 class="subtitles">
   ¿Quienes somos?</h3>
-  <p class="main_paragraph">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
-</section>
-<section id="gallery">
-  <h3 class="subtitles">Nuestros trabajos</h3>
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-    <div class="carousel-indicators">
+    <hr>
+    <p class="main_paragraph">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+   </section>
+   <section id="services">
+    <div class="services_background"></div>
+    <h3 class="subtitles">Nuestros servicios</h3>
+    <article class="service_item">
+     <i class="fa-solid fa-screwdriver-wrench"></i>
+     <span>Reparación de instrumentos</span></article>
+    <div class="service_item">
+     <i class="fa-solid fa-graduation-cap"></i>
+     <span>Cursos de luthería</span></div>
+    <div class="service_item">
+     <i class="fa-solid fa-hammer"></i>
+     <span>Construcción artesanal</span></div><br>
+    <div class="service_item">
+     <i class="fa-solid fa-guitar"></i>
+     <span>Calibración y reentraste</span></div>
+    <div class="service_item">
+     <i class="fa-solid fa-paint-roller"></i>
+     <span>Pintura</span></div>
+    <div class="service_item">
+     <i class="fa-solid fa-truck-fast"></i>
+     <span>Retiro y Envío gratis</span></div>
+   </section>
+   <section id="gallery">
+    <h3 class="subtitles">Trabajos realizados</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
+     </div>
+     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://media.istockphoto.com/photos/violin-maker-working-on-workbench-picture-id503545428?k=20&m=503545428&s=612x612&w=0&h=NkZi4sa2BuS3YmL-gX-ZDTCQ0W9lgDzEVj1p5_C0kUQ=" class="d-block w-100" alt="...">
+       <img src="https://media.istockphoto.com/photos/violin-maker-working-on-workbench-picture-id503545428?k=20&m=503545428&s=612x612&w=0&h=NkZi4sa2BuS3YmL-gX-ZDTCQ0W9lgDzEVj1p5_C0kUQ=" class="d-block w-100" alt="...">
+       <span>Violin hecho a mano</span>
       </div>
       <div class="carousel-item">
-        <img src="https://media.istockphoto.com/photos/luthier-fixing-a-guitar-picture-id837872486?k=20&m=837872486&s=612x612&w=0&h=999TycYqhBaXZvicT_bRHNMSd9y1yKUEe9RAvu8VOlE=" class="d-block w-100" alt="...">
+       <img src="https://media.istockphoto.com/photos/luthier-fixing-a-guitar-picture-id837872486?k=20&m=837872486&s=612x612&w=0&h=999TycYqhBaXZvicT_bRHNMSd9y1yKUEe9RAvu8VOlE=" class="d-block w-100" alt="...">
+         <span>Limpieza de trastes</span>
       </div>
       <div class="carousel-item">
-        <img src="https://media.istockphoto.com/photos/adjusting-the-intonation-of-electric-guitar-by-screwing-a-screw-at-a-picture-id1199848996?k=20&m=1199848996&s=612x612&w=0&h=02K8M2lqADQ9BHdfjQxWupPhKKXCWy5zR9QER1g1aFs=" class="d-block w-100" alt="...">
+       <img src="https://media.istockphoto.com/photos/adjusting-the-intonation-of-electric-guitar-by-screwing-a-screw-at-a-picture-id1199848996?k=20&m=1199848996&s=612x612&w=0&h=02K8M2lqADQ9BHdfjQxWupPhKKXCWy5zR9QER1g1aFs=" class="d-block w-100" alt="...">
+       <span>Calibración de una Fender Stratocaster</span>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
-<section id="contact">
-<h3 class="subtitles">Contacto</h3>
-<div class="contact_item">
-  <i class="contact_icon fa-solid fa-phone"></i>
-  <p>Telefono</p>
-</div>
-<div class="contact_item">
-<i class="contact_icon fa-solid fa-envelope"></i>
-<p>E-mail</p>
-</div>
-<div class="contact_item">
-<i class="contact_icon fa-solid fa-location-dot"></i>
-<p>Ubicacion</p>
-</div>
-</section>
-<footer class="mainFooter">
-  <p>Copyright © 2022</p>
-</footer>
-</main>
-<script src="https://kit.fontawesome.com/fb042221ab.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</body>
+     </button>
+    </div>
+   </section>
+   <section id="contact">
+    <h3 class="subtitles">Contacto</h3>
+    <div class="contact_item">
+     <hr>
+     <a class="contact_link" href="https://www.whatsapp.com" target="_blank">
+      <i class="fa-brands fa-whatsapp">
+       <p>341-1234567</p>
+      </i>
+     </a>
+    </div>
+    <div class="contact_item">
+     <a class="contact_link" href="https://www.google.com/maps/place/Afganistán/@33.6056763,58.6980667,5z/data=!3m1!4b1!4m5!3m4!1s0x38d16eb6f8ff026d:0xf3b5460dbe96da78!8m2!3d33.93911!4d67.709953"
+          target="_blank">
+      <i class="fa-solid fa-location-dot">
+       <p>Córdoba 1234, Rosario, Santa Fe</p>
+      </i>
+     </a>
+    </div>
+    <div class="contact_item">
+     <a class="contact_link" href="https://gmail.com" target="_blank">
+      <i class="fa-solid fa-at">
+       <p>info@luthier.com</p>
+      </i>
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="mainFooter">
+   <span>Todos los derechos reservados © 2022</span>
+  </footer>
+  <script src="https://kit.fontawesome.com/fb042221ab.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+ </body>
 </html>
